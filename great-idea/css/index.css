@@ -176,50 +176,86 @@ footer{
 }
 .Services{
 	display:flex;
-	justify-content: center;
-	flex-wrap:wrap;
-}
-
-.Services h1{
-	padding:10px;
-}
-
-.Services p{
-	padding-bottom: 10px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 40px;
 }
 
 .Services .Design{
-	width:50%;
-	padding:10px;
-	border: solid 2px black;
-}
-.Services .UX{
-	width:50%;
-	padding:10px;
-	border: solid 2px black;
-}
-.Services .Marketing{
-	width:50%;
-	padding: 10px;
-	border: solid 2px black;
-}
-.Services .Dev{
-	width:50%;
-	padding: 10px;
-	border: solid 2px black;
-}
-.Services .iOS{
-	width:50%;
-	padding: 10px;
-	border: solid 2px black;
-}
-.Services .Android{
-	width:50%;
-	padding: 10px;
-	border: solid 2px black;
-}
-
-.Facts {
+	width:45%;
+	border:solid 2px black;
+	margin-bottom: 35px;
 	display:flex;
 	flex-direction: column;
+}
+.Services .Design a{
+	width:40%;
+	margin:20px;
+}
+
+.Services .UX{
+	width:45%;
+	border: solid 2px black;
+	margin-bottom: 35px;
+}
+
+.Services .UX a{
+	width:40%;
+	margin:20px;
+}
+.Services .Marketing{
+	width:45%;
+	border: solid 2px black;
+	margin-bottom: 35px;
+}
+
+.Services .Marketing a{
+	width:40%;
+	margin:20px;
+}
+
+.Services .Dev{
+	width:45%;
+	border: solid 2px black;
+	margin-bottom: 35px;
+}
+.Services .Dev a{
+	width:40%;
+	margin:20px;
+}
+
+.Services .iOS{
+	width:45%;
+	border: solid 2px black;
+	margin-bottom: 35px;
+}
+
+.Services .iOS a{
+	width:40%;
+	margin:20px;
+}
+
+.Services .Android{
+	width:45%;
+	border: solid 2px black;
+	margin-bottom: 35px;
+}
+.Services .Android a{
+	width:40%;
+	margin:20px;
+}
+
+.Facts{ 
+	display:flex;
+	flex-direction: column;
+	margin:auto;
+
+}
+
+.Facts .Secrets{
+	width: 45%;
+}
+.Facts .services-info-img{
+	width:45%;
+	align-self: flex-start;
 }
